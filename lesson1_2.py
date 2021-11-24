@@ -7,7 +7,7 @@ import requests
 from pprint import pprint
 import json
 
-apikey = '03805ef51309820883c87a9c0f703edf'
+apikey = '03805ef**************'
 galleryid = '189717202-72157719400635344'
 doc_format = 'json'
 no_json_callback = '1'
