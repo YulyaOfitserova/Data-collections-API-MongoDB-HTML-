@@ -47,7 +47,7 @@ client = MongoClient('127.0.0.1', 27017)
 db = client['mvideo']
 trend_goods = db.trend_goods
 
-db.vacancy_hh.create_index([('name', 1), ('link', 1)], unique=True)   # уникальный id по name и link
+db.trend_goods.create_index([('name', 1), ('link', 1)], unique=True)   # уникальный id по name и link
 
 for i in items:
     try:
